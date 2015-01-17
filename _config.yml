@@ -3,7 +3,7 @@ title: Fred's Backpack
 email: matt.m.soria@gmail.com
 description: A collections of tools and resources for new Front-end Developers
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://poopsplat.github.io/fredsbackpack/" # the base hostname & protocol for your site
+url: "http://poopsplat.github.io/fredsbackpack" # the base hostname & protocol for your site
 twitter_username: poopsplat
 github_username:  poopsplat
 
