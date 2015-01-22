@@ -72,7 +72,9 @@ Listings are to be posted in order based on the following priorities:
 ## Online Education and Courses
 
 - [Codecademy](http://www.codecademy.com/)
+- [Bloc](https://www.bloc.io/frontend-development-bootcamp) ($)
 - [Code School](https://www.codeschool.com/) ($*)
+- [Frontend Masters](https://frontendmasters.com/) ($)
 - [Lynda.com](http://www.lynda.com/) ($)
 - [Treehouse](http://teamtreehouse.com/) ($)
 
