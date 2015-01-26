@@ -79,7 +79,9 @@ If there are multiple listings any of of the above qualifications they are liste
 
 - [Codecademy](http://www.codecademy.com/)
 - [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)
+- [Bloc](https://www.bloc.io/frontend-development-bootcamp) ($)
 - [Code School](https://www.codeschool.com/) ($*)
+- [Frontend Masters](https://frontendmasters.com/) ($)
 - [Lynda.com](http://www.lynda.com/) ($)
 - [Treehouse](http://teamtreehouse.com/) ($)
 
