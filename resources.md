@@ -67,6 +67,7 @@ If there are multiple listings any of of the above qualifications they are liste
 ### SQL
 
 - [MySQL Workbench](http://www.mysql.com/products/workbench/)
+- [phpMyAdmin](http://www.phpmyadmin.net/)
 - [Sequel Pro](http://www.sequelpro.com/) (mac)
 - [SQLyog](https://www.webyog.com/product/sqlyog) (windows, $)
 
