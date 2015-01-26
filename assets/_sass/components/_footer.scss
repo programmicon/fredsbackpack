@@ -1,0 +1,61 @@
+// Footer
+
+.site-footer {
+  padding: 1em;
+  background: $brand-main;
+  border-top: 1px solid $gray-lite;
+}
+
+.footer-heading {
+  font-size: 1.125em;
+  margin-bottom: .5em;
+}
+
+.contact-list,
+.social-media-list {
+  margin-left: 0;
+  list-style: none;
+}
+
+.footer-col-wrapper {
+  font-size: 1em;
+  margin-left: -1em;
+  @include clearfix();
+  color: $brand-secondary;
+}
+
+.footer-col {
+  float: left;
+  margin-bottom: 1em;
+  padding-left: 1em;
+}
+
+.footer-col-1 {
+  width: calc(35% - 1em);
+}
+
+.footer-col-2 {
+  width: calc(20% - 1em);
+}
+
+.footer-col-3 {
+  width: calc(45% - 1em);
+}
+
+@include max-screen($bpMd) {
+  .footer-col-1,
+  .footer-col-2 {
+    width: calc(50% - 1em);
+  }
+
+  .footer-col-3 {
+    width: calc(100% - 1em);
+  }
+}
+
+@include max-screen($bpSm) {
+  .footer-col {
+    float: none;
+    width: calc(100% - 1em);
+  }
+} 

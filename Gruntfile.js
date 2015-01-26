@@ -31,7 +31,7 @@ module.exports = function(grunt) {
           sourcemap: true,
         },
         files: {
-          'assets/css/main.css': 'assets/sass/main.scss'
+          'assets/css/main.css': 'assets/_sass/main.scss'
         }
       }
     },
@@ -63,42 +63,65 @@ module.exports = function(grunt) {
       },
     },
     shell: {
+      jekyllServe: {
+        command: 'jekyll serve --no-watch',
+        options: {
+          async: true
+        }
+      },
       jekyllBuild: {
         command: 'jekyll build'
-      },
-      jekyllServe: {
-        command: 'jekyll serve'
       }
     },
     watch: {
+      jekyll: {
+        files: [
+          '_layouts/*.html',
+          '_includes/*.html',
+          '_posts/*.markdown',
+          '_config.yml',
+          'index.html',
+          '404.html',
+          ],
+        tasks: 'shell:jekyllBuild',
+        options: {
+          spawn: false,
+          atBegin: true,
+          livereload: true
+        }
+      },
       scripts: {
         files: ['assets/js/libs/*.js', 'assets/js/main.js'],
-        tasks: ['uglify'],
+        tasks: ['uglify', 'shell:jekyllBuild'],
         options: {
+          span: false,
           livereload: true,
         },
       },
       images: {
         files: 'assets/images/*.{png,jpg,gif}',
-        tasks: ['imagemin'],
+        tasks: ['imagemin', 'shell:jekyllBuild'],
         options: {
+          span: false,
           livereload: true,
         },
       },
       css: {
         files: '**/*.scss',
-        tasks: ['sass', 'autoprefixer'],
+        tasks: ['sass', 'autoprefixer', 'shell:jekyllBuild'],
         options: {
+          span: false,
           livereload: true,
         },
       },
       svgs: {
         files: 'assets/svgs/*.svg',
-        tasks: ['svgmin', 'svgstore'],
+        tasks: ['svgmin', 'svgstore', 'shell:jekyllBuild'],
         options: {
+          span: false,
           livereload: true,
         },
-      }
+      },
     },
   });
 
@@ -109,10 +132,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-svgstore');
-  grunt.loadNpmTasks('grunt-shell');
+  grunt.loadNpmTasks('grunt-shell-spawn');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
-  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('default', ['shell:jekyllServe','watch']);
 
 };

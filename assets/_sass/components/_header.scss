@@ -1,0 +1,85 @@
+// Header
+
+.site-header {
+  color: $black;
+  min-height: 56px;
+  position: relative;
+  background: $brand-main;
+  border-top: 5px solid $black;
+  border-bottom: 1px solid $brand-secondary;
+}
+
+.site-title {
+  float: left;
+  font-size: 2em;
+  margin-bottom: 0;
+  line-height: 56px;
+  letter-spacing: -1px;
+  a {
+    &:visited {
+      color: inherit;
+    }
+  }
+}
+
+.site-nav {
+  float: right;
+  line-height: 56px;
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $black;
+    // Gaps between nav items, but not on the first one
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+  }
+
+  @include max-screen($bpSm) {
+    top: 9px;
+    right: 30px;
+    text-align: right;
+    position: absolute;
+    border-radius: 5px;
+    background-color: $white;
+    border: 1px solid $gray-lite;
+
+    .menu-icon {
+      width: 36px;
+      float: right;
+      height: 26px;
+      display: block;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg {
+        width: 18px;
+        height: 15px;
+        display: inline-block;
+        vertical-align: middle;
+        path {
+            fill: $gray-dark;
+        }
+      }
+    }
+
+    .trigger {
+      clear: both;
+      display: none;
+    }
+
+    &:hover .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+    }
+  }
+}

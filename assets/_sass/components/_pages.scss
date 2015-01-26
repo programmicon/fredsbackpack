@@ -1,0 +1,27 @@
+// Pages
+
+.page-content {
+  padding: 1em;
+}
+
+.page-heading {
+  font-size: 1.25em;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+  > li {
+    margin-bottom: 1em;
+  }
+}
+
+.post-meta {
+  color: $gray;
+  font-size: .625em;
+}
+
+.post-link {
+  display: block;
+  font-size: 1.5em;
+}

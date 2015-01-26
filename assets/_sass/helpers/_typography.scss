@@ -1,0 +1,17 @@
+// Typography
+
+// Fonts
+$sans: "alternate-gothic-no-3-d", Helvetica, sans-serif;
+$serif: Georgia, serif;
+$mono: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+$amp: Georgia, serif;
+
+// Font Classes
+.amp {
+	font-family: $amp;
+}
+
+//sizes
+$small: 0.5em;
+$med: 1em;
+$big: 3em;
