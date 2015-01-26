@@ -8,11 +8,16 @@ permalink: /resources/
 
 ### Order of listings
 
-Listings are to be posted in order based on the following priorities:
+Resources are listed based on category in the following order:
 
-1.  Resource is free
-2.  Resource is available on any OS
-3.  Alphabetical order by first letter of resource title
+1.  Resource is free and available on any OS
+2.  Resource is free and only available on a certain OS
+3.  Resource has a cost but has some sort of free option and available on any OS
+4.  Resource has a cost but has some sort of free option and only available on a certain OS
+5.  Resource has a cost and available on any OS
+6.  Resource has a cost and only available on a certain OS
+
+If there are multiple listings any of of the above qualifications they are listed in alphabetical order based on the first letter of the first word in the resources title.
 
 ### Legend
 
@@ -26,12 +31,13 @@ Listings are to be posted in order based on the following priorities:
 
 - [Aptana Studio](http://www.aptana.com/)
 - [Atom](https://atom.io/)
+- [Brackets](http://brackets.io/)
 - [Vim](http://www.vim.org/download.php)
 - [Notepad++](http://notepad-plus-plus.org/) (windows)
 - [TextWrangler](http://www.barebones.com/products/textwrangler/) (mac)
+- [Submlime Text](http://sublimetext.com) ($)
 - [BBEdit](http://www.barebones.com/products/bbedit/) (mac, $)
 - [Coda](https://panic.com/coda/) (mac, $)
-- [Submlime Text](http://sublimetext.com) ($)
 
 ### Online IDEs
 
@@ -72,6 +78,7 @@ Listings are to be posted in order based on the following priorities:
 ## Online Education and Courses
 
 - [Codecademy](http://www.codecademy.com/)
+- [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)
 - [Code School](https://www.codeschool.com/) ($*)
 - [Lynda.com](http://www.lynda.com/) ($)
 - [Treehouse](http://teamtreehouse.com/) ($)
@@ -109,6 +116,9 @@ Listings are to be posted in order based on the following priorities:
 - [Authentic Jobs](http://www.authenticjobs.com/#category=4)
 - [Front-end Developer Job](http://frontenddeveloperjob.com/)
 - [Stack Overflow](http://careers.stackoverflow.com/jobs/tag/frontend)
+- [Find Bacon](https://findbacon.com/jobs/Front-End)
+- [Jr. DevJobs](http://www.jrdevjobs.com/)
+- [We Work Remotely](https://weworkremotely.com/)
 
 ## Cheat Sheets
 
