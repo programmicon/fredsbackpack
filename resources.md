@@ -4,21 +4,6 @@ title: Resources
 permalink: /resources/
 ---
 
-## Listing Rules
-
-### Order of listings
-
-Resources are listed based on category in the following order:
-
-1.  Resource is free and available on any OS
-2.  Resource is free and only available on a certain OS
-3.  Resource has a cost but has some sort of free option and available on any OS
-4.  Resource has a cost but has some sort of free option and only available on a certain OS
-5.  Resource has a cost and available on any OS
-6.  Resource has a cost and only available on a certain OS
-
-If there are multiple listings any of of the above qualifications they are listed in alphabetical order based on the first letter of the first word in the resources title.
-
 ### Legend
 
 - All resources are available on any OS unless noted in parentheses (example: `(mac)` denotes a mac-only resource)
