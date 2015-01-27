@@ -14,6 +14,9 @@ body {
   background: $white;
   font-family: $mono;
   -webkit-font-smoothing: antialiased;
+  @include max-screen($bpMd) {
+    font-size: 75%;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -95,4 +98,8 @@ pre {
   @include min-screen($bpMd) {
     // set breakpoints on a per-module basis when possible
   }
+}
+
+.hide {
+  display: none;
 }

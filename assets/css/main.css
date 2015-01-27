@@ -681,6 +681,11 @@ body {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   -webkit-font-smoothing: antialiased;
 }
+@media screen and (max-width: 50em) {
+  body {
+    font-size: 75%;
+  }
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -768,9 +773,13 @@ pre > code {
   clear: both;
 }
 
+.hide {
+  display: none;
+}
+
 .site-header {
   color: #39382f;
-  min-height: 56px;
+  min-height: 72px;
   position: relative;
   background: #e6db74;
   border-top: 5px solid #39382f;
@@ -779,9 +788,9 @@ pre > code {
 
 .site-title {
   float: left;
-  font-size: 2em;
+  font-size: 3em;
   margin-bottom: 0;
-  line-height: 56px;
+  line-height: 72px;
   letter-spacing: -1px;
 }
 .site-title a:visited {
@@ -790,7 +799,7 @@ pre > code {
 
 .site-nav {
   float: right;
-  line-height: 56px;
+  line-height: 72px;
 }
 .site-nav .menu-icon {
   display: none;
@@ -869,6 +878,21 @@ pre > code {
   font-size: 1.5em;
 }
 
+.btn {
+  font-size: 2em;
+  line-height: 1em;
+  color: #e6db74;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  font-family: "alternate-gothic-no-3-d", Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 1em;
+  display: inline-block;
+  border: 3px solid #39382f;
+  background: #968777;
+  text-shadow: 0 2px rgba(0, 0, 0, 0.1);
+}
+
 .post-header {
   margin-bottom: 2em;
 }
@@ -915,7 +939,8 @@ pre > code {
 .site-footer {
   padding: 1em;
   background: #e6db74;
-  border-top: 1px solid #e8e8e8;
+  border-bottom: 5px solid #39382f;
+  border-top: 1px solid #968777;
 }
 
 .footer-heading {
@@ -978,4 +1003,37 @@ pre > code {
     float: none;
     width: calc(100% - 1em);
   }
+}
+.home .intro {
+  padding-top: 2em;
+  *zoom: 1;
+}
+.home .intro:before, .home .intro:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.home .intro:after {
+  clear: both;
+}
+.home .intro .logo {
+  height: 0;
+  width: 40%;
+  float: left;
+  padding-top: 60%;
+  max-width: 384px;
+  position: relative;
+  margin: 0 2em 2em 0;
+}
+.home .intro .logo .icon {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.home .intro h2 {
+  font-size: 3em;
+  line-height: 1em;
 }

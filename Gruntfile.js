@@ -58,7 +58,7 @@ module.exports = function(grunt) {
       },
       default : {
         files: {
-          'assets/svgs/build/svg-defs.svg': ['assets/svgs/*.svg']
+          '_includes/svg-defs.svg': ['assets/svgs/*.svg']
         },
       },
     },

@@ -1,0 +1,16 @@
+// UI Components
+
+.btn {
+  font-size: 2em;
+  line-height: 1em;
+  color: $brand-main;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  font-family: $sans;
+  text-align: center;
+  margin-bottom: 1em;
+  display: inline-block;
+  border: 3px solid $black;
+  background: $brand-secondary;
+  text-shadow: 0 2px rgba(0,0,0,.1);
+}
