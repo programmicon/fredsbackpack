@@ -687,6 +687,18 @@ body {
   }
 }
 
+body.mac .pc {
+  display: none;
+}
+
+body.pc .mac {
+  display: none;
+}
+
+hr {
+  margin: 2em 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   font-weight: 400;
@@ -697,6 +709,9 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-size: 1em;
   line-height: 1.25em;
+}
+p a {
+  text-decoration: underline;
 }
 
 a {
@@ -879,18 +894,25 @@ pre > code {
 }
 
 .btn {
+  height: 2em;
+  color: #39382f;
   font-size: 2em;
-  line-height: 1em;
-  color: #e6db74;
-  padding: 0.5em 1em;
+  padding: 0 1em;
+  line-height: 2em;
   border-radius: 3px;
   font-family: "alternate-gothic-no-3-d", Helvetica, sans-serif;
   text-align: center;
   margin-bottom: 1em;
   display: inline-block;
   border: 3px solid #39382f;
-  background: #968777;
+  background: #e6db74;
   text-shadow: 0 2px rgba(0, 0, 0, 0.1);
+  -webkit-transition: background .2s ease-out, color .2s ease-out;
+          transition: background .2s ease-out, color .2s ease-out;
+}
+.btn:hover, .btn:focus {
+  color: #e6db74;
+  background: #968777;
 }
 
 .post-header {
@@ -938,6 +960,7 @@ pre > code {
 
 .site-footer {
   padding: 1em;
+  margin-top: 4em;
   background: #e6db74;
   border-bottom: 5px solid #39382f;
   border-top: 1px solid #968777;
@@ -954,11 +977,34 @@ pre > code {
   list-style: none;
 }
 
+.social-media-list li {
+  display: inline-block;
+}
+.social-media-list .icon-wrap {
+  height: 0;
+  width: 32px;
+  display: block;
+  padding-top: 32px;
+  position: relative;
+}
+.social-media-list .username {
+  display: none;
+}
+
+.icon {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  fill: #39382f;
+  position: absolute;
+}
+
 .footer-col-wrapper {
+  color: #39382f;
   font-size: 1em;
   margin-left: -1em;
   *zoom: 1;
-  color: #968777;
 }
 .footer-col-wrapper:before, .footer-col-wrapper:after {
   content: "\0020";
@@ -1033,7 +1079,53 @@ pre > code {
   height: 100%;
   position: absolute;
 }
-.home .intro h2 {
+.home .downloads {
+  *zoom: 1;
+}
+.home .downloads:before, .home .downloads:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.home .downloads:after {
+  clear: both;
+}
+.home h2 {
   font-size: 3em;
   line-height: 1em;
+}
+.home .details {
+  padding: 2em;
+  border-radius: 3px;
+  margin: 2em 0 2em -2em;
+  width: calc(100% + 4em);
+  background: #e6db74;
+  border: 3px solid #39382f;
+}
+.home .details h2 {
+  margin-bottom: .5em;
+}
+.home .package-content ul {
+  margin: 0;
+  padding: 0;
+}
+.home .package-content li {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 1em;
+  list-style-type: none;
+}
+.home .package-content a {
+  text-decoration: underline;
+}
+.home .coming-soon h2 {
+  margin-bottom: .5em;
+}
+.home .coming-soon ul {
+  margin: 0;
+  padding: 0;
+}
+.home .coming-soon li {
+  font-size: 1.5em;
 }

@@ -54,7 +54,7 @@ module.exports = function(grunt) {
     },
     svgstore: {
       options: {
-        prefix: 'icon-'
+        // prefix: 'icon-'
       },
       default : {
         files: {

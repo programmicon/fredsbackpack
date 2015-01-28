@@ -1,12 +1,17 @@
 
 var Main = (function ($) {
 	return {
-		myFunction: function () {
-
+		browserDetect: function () {
+      // Detect if Mac or PC for corresponding download link
+      if (navigator.userAgent.indexOf('Mac OS X') != -1) {
+        $("body").addClass("mac");
+      } else {
+        $("body").addClass("pc");
+      }
 		},
 		initMain: function () {
 			$(document).ready(function () {
-				Main.myFunction();
+				Main.browserDetect();
 			})
 		}
 	};

@@ -1,11 +1,11 @@
 # Site settings
 title: FRED's Backpack
-email: matt.m.soria@gmail.com
+email: fredsbackpack@gmail.com
 description: A collections of tools and resources for new Front-end Developers
 baseurl: ""
 url: "http://fredsbackpack.com"
-twitter_username: poopsplat
-github_username:  poopsplat
+twitter_username: fredsbackpack
+github_username:  poopsplat/fredsbackpack
 
 # Build settings
 markdown: kramdown

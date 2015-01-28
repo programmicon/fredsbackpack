@@ -24,6 +24,8 @@ If there are multiple listings any of of the above qualifications they are liste
 
 ## To Do:
 
+- [ ] Articles
+- [ ] Finish styling!!!
 - [ ] Right now the backpacks are hosted on S3 and packed manually, but I need to figure out a better way to handle this
     - [ ] Allow auto-build with checklist of what user wants to include
 - [ ] More dynamic way to add tools and resources

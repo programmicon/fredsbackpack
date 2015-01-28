@@ -2,6 +2,7 @@
 
 .site-footer {
   padding: 1em;
+  margin-top: 4em;
   background: $brand-main;
   border-bottom: 5px solid $black;
   border-top: 1px solid $brand-secondary;
@@ -18,11 +19,35 @@
   list-style: none;
 }
 
+.social-media-list {
+  li {
+    display: inline-block;
+  }
+  .icon-wrap {
+    height: 0;
+    width: 32px;
+    display: block;
+    padding-top: 32px;
+    position: relative;
+  }
+  .username {
+    display: none;
+  }
+}
+.icon {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  fill: $black;
+  position: absolute;
+}
+
 .footer-col-wrapper {
+  color: $black;
   font-size: 1em;
   margin-left: -1em;
   @include clearfix();
-  color: $brand-secondary;
 }
 
 .footer-col {

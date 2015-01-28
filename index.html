@@ -8,12 +8,37 @@ layout: default
     <div class="logo"><svg class="icon icon-backpack" role="img" aria-labelledby="title"><use xlink:href="#icon-backpack"></use></svg></div>
     <h2>Everything you need to get started as a Front-end Developer (a FRED), packed neatly into one package.</h2>
     <div class="downloads">
-      <a href="/backpacks/Windows_1.0.zip" target="_blank" class="btn">Download for Windows</a>
-      <a href="/backpacks/Mac_1.0.zip" target="_blank" class="btn">Download for Mac</a>
+      <a href="https://s3.amazonaws.com/freds-backpack/Windows_1.0.zip" target="_blank" class="btn download pc">Download for Windows</a>
+      <a href="https://s3.amazonaws.com/freds-backpack/Mac_1.0.zip" class="pc download-alt">or Mac</a>
+      <a href="https://s3.amazonaws.com/freds-backpack/Mac_1.0.zip" target="_blank" class="btn download mac">Download for Mac</a>
+      <a href="https://s3.amazonaws.com/freds-backpack/Windows_1.0.zip" class="mac download-alt">or Windows</a>
     </div>
-  </div>  
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="details">
+    <h2>What's inside?</h2>
+    <div class="package-content">
+      <ul>
+        <li><a href="https://atom.io">Atom</a> — a text editor to write your code</li>
+        <li><a href="https://filezilla-project.org/">FileZilla</a> — FTP solution to push your local site up to a live server</li>
+        <li><a href="http://www.mamp.info/en/">MAMP</a> — easy local server environment</li>
+        <li class="mac"><a href="https://mac.github.com/">GitHub for Mac</a> — GUI for using GitHub</li>
+        <li class="pc"><a href="https://windows.github.com/">GitHub for Windows</a> — GUI for using GitHub</li>
+        <li><a href="https://github.com/poopsplat/fredsbackpack/tree/gh-pages/backpack">FRED's First Website</a> — sample site to get you started</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="coming-soon">
+    <h2>Coming Soon</h2>
+    <ul>
+      <li>More resources, and a dynamic way to add/contribute to them!</li>
+      <li>Articles that will help you get started!</li>
+      <li>The ability to custom build your FRED backpack!</li>
+    </ul>
+  </div>
+
+<!--   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -27,6 +52,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>
