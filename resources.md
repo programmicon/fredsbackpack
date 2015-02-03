@@ -71,6 +71,12 @@ permalink: /resources/
 - [Lynda.com](http://www.lynda.com/) ($)
 - [Treehouse](http://teamtreehouse.com/) ($)
 
+## Online References and Resources
+
+- [Codrops' CSS Reference](http://tympanus.net/codrops/css_reference/)
+- [CSS Tricks Almanac](http://css-tricks.com/almanac/)
+- [CSS Tricks Snippets](http://css-tricks.com/snippets/css/)
+
 ## Deals and Packages
 
 - [Github Student Developer Pack](https://education.github.com/pack)
