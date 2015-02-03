@@ -119,6 +119,7 @@ permalink: /resources/
 - [A11Y Web Accessibility Checklist](http://a11yproject.com/checklist.html)
 - [Luanchlist](https://github.com/poopsplat/launchlist)
 - [Mac Terminal](https://github.com/0nn0/terminal-mac-cheatsheet)
+- [Userium Usability Checklist](https://userium.com/)
 
 ## Podcasts
 
