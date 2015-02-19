@@ -71,6 +71,10 @@ permalink: /resources/
 - [Lynda.com](http://www.lynda.com/) ($)
 - [Treehouse](http://teamtreehouse.com/) ($)
 
+## Real Life Education and Courses
+
+- [General Assembly](http://generalassemb.ly) ($)
+
 ## Deals and Packages
 
 - [Github Student Developer Pack](https://education.github.com/pack)
