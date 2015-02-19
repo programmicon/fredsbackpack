@@ -71,9 +71,16 @@ permalink: /resources/
 - [Lynda.com](http://www.lynda.com/) ($)
 - [Treehouse](http://teamtreehouse.com/) ($)
 
+
 ## Real Life Education and Courses
 
 - [General Assembly](http://generalassemb.ly) ($)
+
+## Online References and Resources
+
+- [Codrops' CSS Reference](http://tympanus.net/codrops/css_reference/)
+- [CSS Tricks Almanac](http://css-tricks.com/almanac/)
+- [CSS Tricks Snippets](http://css-tricks.com/snippets/css/)
 
 ## Deals and Packages
 
@@ -117,6 +124,7 @@ permalink: /resources/
 - [A11Y Web Accessibility Checklist](http://a11yproject.com/checklist.html)
 - [Luanchlist](https://github.com/poopsplat/launchlist)
 - [Mac Terminal](https://github.com/0nn0/terminal-mac-cheatsheet)
+- [Userium Usability Checklist](https://userium.com/)
 
 ## Podcasts
 
