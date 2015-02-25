@@ -71,7 +71,6 @@ permalink: /resources/
 - [Lynda.com](http://www.lynda.com/) ($)
 - [Treehouse](http://teamtreehouse.com/) ($)
 
-
 ## Real Life Education and Courses
 
 - [General Assembly](http://generalassemb.ly) ($)
@@ -122,10 +121,11 @@ permalink: /resources/
 ## Cheat Sheets
 
 - [A11Y Web Accessibility Checklist](http://a11yproject.com/checklist.html)
+- [Front End Guidelines](https://github.com/bendc/frontend-guidelines)
 - [Luanchlist](https://github.com/poopsplat/launchlist)
 - [Mac Terminal](https://github.com/0nn0/terminal-mac-cheatsheet)
-- [Userium Usability Checklist](https://userium.com/)
 - [Sass Functions Cheat Sheet](http://www.cheatography.com/hamidyfine/cheat-sheets/sass-functions/)
+- [Userium Usability Checklist](https://userium.com/)
 
 ## Podcasts
 
