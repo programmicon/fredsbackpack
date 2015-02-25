@@ -125,6 +125,7 @@ permalink: /resources/
 - [Luanchlist](https://github.com/poopsplat/launchlist)
 - [Mac Terminal](https://github.com/0nn0/terminal-mac-cheatsheet)
 - [Userium Usability Checklist](https://userium.com/)
+- [Sass Functions Cheat Sheet](http://www.cheatography.com/hamidyfine/cheat-sheets/sass-functions/)
 
 ## Podcasts
 
