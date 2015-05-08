@@ -146,6 +146,13 @@ permalink: /resources/
 ### Hosting ($)
 
 - [DigitalOcean](https://www.digitalocean.com/)
+- [Divshot](https://divshot.com/)($*)
 - [Linode](https://www.linode.com/)
 - [Media Temple](http://mediatemple.net/)
 - [WebFaction](https://www.webfaction.com/)
+
+## Form Handling
+
+- [Former](http://former.io/)
+- [Formspree](http://formspree.io/)
+- [Wufoo](http://www.wufoo.com/)($*)
